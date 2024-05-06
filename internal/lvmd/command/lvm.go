@@ -11,7 +11,7 @@ import (
 
 const (
 	nsenter = "/usr/bin/nsenter"
-	lvm     = "/sbin/lvm"
+	lvm     = "/run/current-system/sw/bin/lvm"
 )
 
 // ErrNotFound is returned when a VG or LV is not found.
